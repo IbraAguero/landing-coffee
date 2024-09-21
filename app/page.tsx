@@ -1,9 +1,12 @@
-import HeroSection from "./components/ui/hero-section";
+import Header from "./components/header/header";
+import Market from "./components/market/market";
 
 export default function Home() {
   return (
-    <section>
-      <HeroSection />
-    </section>
+    <>
+      <Header />
+      <Market />
+      <div className="h-screen bg-white"></div>
+    </>
   );
 }
