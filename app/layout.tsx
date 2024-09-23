@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import { Philosopher } from "next/font/google";
 
 import "./globals.css";
 
@@ -11,11 +10,6 @@ export const metadata: Metadata = {
 
 const poppins = Poppins({
   weight: ["200", "400", "600", "800"],
-  subsets: ["latin"],
-});
-
-export const philosopher = Philosopher({
-  weight: ["400", "700"],
   subsets: ["latin"],
 });
 

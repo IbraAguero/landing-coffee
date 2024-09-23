@@ -1,8 +1,13 @@
-import { philosopher } from "@/app/layout";
 import InstagramIcon from "../icons/instragram-icon";
 import FacebookIcon from "../icons/facebook-icon";
 import TwitterIcon from "../icons/twitter-icon";
 import Link from "next/link";
+import { Philosopher } from "next/font/google";
+
+export const philosopher = Philosopher({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+});
 
 const Fotter = () => {
   return (

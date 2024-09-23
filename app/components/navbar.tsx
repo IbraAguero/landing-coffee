@@ -1,5 +1,10 @@
 import Link from "next/link";
-import { philosopher } from "../layout";
+import { Philosopher } from "next/font/google";
+
+export const philosopher = Philosopher({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+});
 
 const Navbar = () => {
   return (
