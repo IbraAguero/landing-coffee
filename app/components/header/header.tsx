@@ -16,6 +16,7 @@ function Header() {
         />
         <div className="absolute inset-0 bg-black/20"></div>
       </div>
+      <div className="bg-yellow-700 bottom-44 w-full absolute h-5"></div>
       <div className="mx-auto px-5 z-10 max-w-5xl grid items-center justify-center md:justify-start h-[calc(100vh-7rem)]">
         <div className="flex flex-col items-center text-center md:text-left md:items-start gap-2 w-72">
           <h2 className="text-2xl">
