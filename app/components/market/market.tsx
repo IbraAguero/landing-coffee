@@ -15,7 +15,7 @@ import CookieIcon from "../icons/cookie-icon";
 
 function Market() {
   return (
-    <section className="mx-auto max-w-5xl text-black text-center">
+    <section className="mx-auto max-w-5xl md:mt-10 text-black text-center">
       <div className="space-y-16 mb-16 flex flex-col items-center overflow-hidden">
         <div className="flex items-center gap-2">
           <h3 className="text-black text-3xl font-semibold">Algo para tomar</h3>
