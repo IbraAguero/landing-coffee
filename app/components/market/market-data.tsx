@@ -1,9 +1,11 @@
 import cafe_1 from "@/assets/cafe-5.jpg";
+import cafe_2 from "@/assets/cafe-4.jpg";
 import licuados from "@/assets/licuados.jpg";
 import cafe_chocolate from "@/assets/cafe-chocolate.jpg";
 import focaccia from "@/assets/focaccia.jpg";
 import croissants from "@/assets/croissants.jpeg";
 import torta from "@/assets/torta-frutilla.jpg";
+import tostadas from "@/assets/tostadas.jpg";
 
 export const marketData = {
   drinks: [
@@ -25,18 +27,12 @@ export const marketData = {
       description: "Incluye galletas oreo, es helado",
       image: cafe_chocolate,
     },
-    /* {
+    {
       id: 4,
       name: "Café Chocho",
       description: "Incluye galletas oreo, es helado",
-      image: cafe_chocolate,
+      image: cafe_2,
     },
-    {
-      id: 5,
-      name: "Café Chocho",
-      description: "Incluye galletas oreo, es helado",
-      image: cafe_chocolate,
-    }, */
   ],
   meals: [
     {
@@ -48,7 +44,7 @@ export const marketData = {
     {
       id: 2,
       name: "Tortas",
-      description: "Multifruta, banana, limonada",
+      description: "De frutilla, chocolate, brownie, etc",
       image: torta,
     },
     {
@@ -59,9 +55,9 @@ export const marketData = {
     },
     {
       id: 4,
-      name: "Tortas",
-      description: "Multifruta, banana, limonada",
-      image: torta,
+      name: "Avocados",
+      description: "Incluye huevo, panceta, lechuga",
+      image: tostadas,
     },
   ],
 };
