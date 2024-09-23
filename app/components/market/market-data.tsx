@@ -25,6 +25,18 @@ export const marketData = {
       description: "Incluye galletas oreo, es helado",
       image: cafe_chocolate,
     },
+    /* {
+      id: 4,
+      name: "Café Chocho",
+      description: "Incluye galletas oreo, es helado",
+      image: cafe_chocolate,
+    },
+    {
+      id: 5,
+      name: "Café Chocho",
+      description: "Incluye galletas oreo, es helado",
+      image: cafe_chocolate,
+    }, */
   ],
   meals: [
     {
@@ -44,6 +56,12 @@ export const marketData = {
       name: "Focaccias",
       description: "Incluye galletas oreo, es helado",
       image: focaccia,
+    },
+    {
+      id: 4,
+      name: "Tortas",
+      description: "Multifruta, banana, limonada",
+      image: torta,
     },
   ],
 };
