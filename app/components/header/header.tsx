@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Navbar from "../navbar";
 import banner_coffe from "@/assets/banner-coffee.png";
+import Navbar from "../navbar";
 
 function Header() {
   return (
@@ -16,13 +16,13 @@ function Header() {
         />
         <div className="absolute inset-0 bg-black/20"></div>
       </div>
-      <div className="mx-auto z-10 max-w-6xl grid items-center h-[calc(100vh-7rem)]">
-        <div className="grid gap-2 w-72">
+      <div className="mx-auto px-5 z-10 max-w-5xl grid items-center justify-center md:justify-start h-[calc(100vh-7rem)]">
+        <div className="flex flex-col items-center text-center md:text-left md:items-start gap-2 w-72">
           <h2 className="text-2xl">
             Ya probaste el <span className="font-bold">café </span>
             mas rico de Santiago?
           </h2>
-          <button className="bg-amber-900 hover:bg-amber-800 w-fit p-3 px-10 rounded-full text-sm transition-colors">
+          <button className="font-semibold bg-yellow-900 hover:bg-yellow-950 w-fit p-3 px-10 rounded-full text-sm transition-colors">
             Visitanos
           </button>
         </div>
